@@ -1,3 +1,5 @@
+## 本仓库仅供课程学习使用
+
 ### 更新环境变量：
 source ~/catkin_ws/devel/setup.bash
 

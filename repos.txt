@@ -1,0 +1,20 @@
+# 克隆kobuki桌面环境
+$ git clone https://github.com/yujinrobot/kobuki_desktop.git
+# 删除不需要的qtestsuite
+$ rm -rf kobuki_desktop/kobuki_qtestsuite
+# 克隆kobuki核心库(仅单分支)
+$ git clone --single-branch https://github.com/yujinrobot/kobuki.git
+# 移动需要的kobuki模块到当前目录
+$ mv kobuki/kobuki_description kobuki/kobuki_bumper2pc \
+   kobuki/kobuki_node kobuki/kobuki_keyop \
+   kobuki/kobuki_safety_controller ./
+# 删除原kobuki目录
+$ rm -rf kobuki
+# 创建repos目录
+$ mkdir -p ~/repos/
+# 进入repos目录
+$ cd ~/repos
+# 克隆yujin_ocs库
+$ git clone https://github.com/yujinrobot/yujin_ocs.git
+# 复制需要的yujin_ocs模块到ROS工作空间
+$ cp -r yujin_ocs/yocs_cmd_vel_mux/yujin_ocs/yocs_velocity_smoother yujin_ocs/yocs_controllers ~/catkin_ws/src/

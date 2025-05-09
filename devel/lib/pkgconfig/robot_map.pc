@@ -1,0 +1,8 @@
+prefix=/home/robot/catkin_ws/devel
+
+Name: robot_map
+Description: Description of robot_map
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

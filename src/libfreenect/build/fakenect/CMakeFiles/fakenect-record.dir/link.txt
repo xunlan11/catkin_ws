@@ -1,0 +1,1 @@
+/usr/bin/cc -Wall -O2    CMakeFiles/fakenect-record.dir/record.c.o CMakeFiles/fakenect-record.dir/parson.c.o  -o ../bin/fakenect-record  -Wl,-rpath,/home/robot/catkin_ws/src/libfreenect/build/lib: ../lib/libfreenect.so.0.7.5 -lm /usr/lib/x86_64-linux-gnu/libusb-1.0.so 

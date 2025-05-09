@@ -1,0 +1,1 @@
+/usr/bin/cc -Wall -O2    CMakeFiles/freenect-wavrecord.dir/wavrecord.c.o  -o ../bin/freenect-wavrecord  -Wl,-rpath,/home/robot/catkin_ws/src/libfreenect/build/lib: ../lib/libfreenect.so.0.7.5 /usr/lib/x86_64-linux-gnu/libusb-1.0.so 

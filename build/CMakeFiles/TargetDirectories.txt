@@ -205,6 +205,13 @@
 /home/robot/catkin_ws/build/kobuki_keyop/src/CMakeFiles/edit_cache.dir
 /home/robot/catkin_ws/build/kobuki_keyop/src/CMakeFiles/test.dir
 /home/robot/catkin_ws/build/kobuki_keyop/src/CMakeFiles/keyop.dir
+/home/robot/catkin_ws/build/robot_control/CMakeFiles/install/strip.dir
+/home/robot/catkin_ws/build/robot_control/CMakeFiles/install/local.dir
+/home/robot/catkin_ws/build/robot_control/CMakeFiles/install.dir
+/home/robot/catkin_ws/build/robot_control/CMakeFiles/list_install_components.dir
+/home/robot/catkin_ws/build/robot_control/CMakeFiles/rebuild_cache.dir
+/home/robot/catkin_ws/build/robot_control/CMakeFiles/edit_cache.dir
+/home/robot/catkin_ws/build/robot_control/CMakeFiles/test.dir
 /home/robot/catkin_ws/build/robot_map/CMakeFiles/install/strip.dir
 /home/robot/catkin_ws/build/robot_map/CMakeFiles/install/local.dir
 /home/robot/catkin_ws/build/robot_map/CMakeFiles/install.dir

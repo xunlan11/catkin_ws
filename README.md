@@ -26,10 +26,10 @@ source ~/catkin_ws/devel/setup.bash
 - 启动GMAPPING建图：roslaunch turtlebot_navigation gmapping_demo.launch
 - 启动RViz可视化工具：roslaunch turtlebot_rviz_launchers view_navigation.launch
 - 键盘控制：roslaunch turtlebot_teleop keyboard_teleop.launch
-- 保存地图：rosrun map_server map_saver -f /tmp/my_map
+- 保存地图：rosrun map_server map_saver -f ~/my_maps/my_map
 
 ### 导航
-- 设置地图路径：echo "export TURTLEBOT_GAZEBO_WORLD_FILE=xxx" >> ~/.bashrc 
+- echo "export TURTLEBOT_MAP_FILE=$HOME/my_maps/my_map.yaml" >> ~/.bashrc
 - source ~/.bashrc
 - 启动底盘（世界时间）：roslaunch turtlebot_bringup minimal.launch use_sim_time:=False 
 - 启动amcl定位：roslaunch turtlebot_navigation amcl_demo.launch 

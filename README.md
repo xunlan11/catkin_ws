@@ -35,3 +35,15 @@ source ~/catkin_ws/devel/setup.bash
 - 启动amcl定位：roslaunch turtlebot_navigation amcl_demo.launch 
 - 启动rviz可视化工具（输出于当前终端）：roslaunch turtlebot_rviz_launchers view_navigation.launch --screen 
 - rosrun robot_map navigation.py
+
+### 机械臂
+- 检查硬件连接：ls /dev/ttyUSB0
+- 设置USB权限：
+  - sudo dmesg -c
+  - sudo chmod 666 /dev/ttyUSB0
+    - udev规则文件路径： /etc/udev/rules.d/70-ttyusb.rules
+    - 规则内容： KERNEL=="ttyUSB[0-9]*", MODE="0666"
+    - 操作步骤最后提到需要"重启系统"使规则生效
+- 启动控制器：roslaunch my_dynamixel start_tilt_controller.launch
+- rostopic
+- 测试话题：rostopic pub -1 /tilt_controller/command std_msgs/Float64 -- 1.5

@@ -364,6 +364,13 @@
 /home/robot/catkin_ws/build/kobuki_bumper2pc/CMakeFiles/list_install_components.dir
 /home/robot/catkin_ws/build/kobuki_bumper2pc/CMakeFiles/rebuild_cache.dir
 /home/robot/catkin_ws/build/kobuki_bumper2pc/CMakeFiles/kobuki_bumper2pc_nodelet.dir
+/home/robot/catkin_ws/build/main_pkg/CMakeFiles/install/strip.dir
+/home/robot/catkin_ws/build/main_pkg/CMakeFiles/install/local.dir
+/home/robot/catkin_ws/build/main_pkg/CMakeFiles/install.dir
+/home/robot/catkin_ws/build/main_pkg/CMakeFiles/list_install_components.dir
+/home/robot/catkin_ws/build/main_pkg/CMakeFiles/rebuild_cache.dir
+/home/robot/catkin_ws/build/main_pkg/CMakeFiles/edit_cache.dir
+/home/robot/catkin_ws/build/main_pkg/CMakeFiles/test.dir
 /home/robot/catkin_ws/build/kobuki_desktop/kobuki_dashboard/CMakeFiles/install/strip.dir
 /home/robot/catkin_ws/build/kobuki_desktop/kobuki_dashboard/CMakeFiles/install/local.dir
 /home/robot/catkin_ws/build/kobuki_desktop/kobuki_dashboard/CMakeFiles/install.dir

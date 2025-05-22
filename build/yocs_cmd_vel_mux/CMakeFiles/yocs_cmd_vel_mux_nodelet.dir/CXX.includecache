@@ -60,6 +60,14 @@ yocs_cmd_vel_mux/cmd_vel_mux_nodelet.hpp
 yocs_cmd_vel_mux/exceptions.hpp
 /home/robot/catkin_ws/src/yocs_cmd_vel_mux/src/yocs_cmd_vel_mux/exceptions.hpp
 
+/home/robot/catkin_ws/src/yocs_cmd_vel_mux/src/cmd_vel_subscribers.cpp
+fstream
+-
+yocs_cmd_vel_mux/cmd_vel_subscribers.hpp
+/home/robot/catkin_ws/src/yocs_cmd_vel_mux/src/yocs_cmd_vel_mux/cmd_vel_subscribers.hpp
+yocs_cmd_vel_mux/exceptions.hpp
+/home/robot/catkin_ws/src/yocs_cmd_vel_mux/src/yocs_cmd_vel_mux/exceptions.hpp
+
 /opt/ros/noetic/include/class_loader/class_loader.hpp
 boost/bind/bind.hpp
 -
@@ -713,6 +721,8 @@ ros/init.h
 /opt/ros/noetic/include/ros/ros/init.h
 common.h
 /opt/ros/noetic/include/ros/common.h
+boost/bind/bind.hpp
+-
 xmlrpcpp/XmlRpcValue.h
 -
 

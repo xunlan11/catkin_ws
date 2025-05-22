@@ -83,6 +83,7 @@ all: robot_voice/all
 all: my_dynamixel/all
 all: freenect_stack/freenect_camera/all
 all: kobuki_bumper2pc/all
+all: main_pkg/all
 all: kobuki_desktop/kobuki_dashboard/all
 all: turtlebot_apps/turtlebot_actions/all
 all: turtlebot_apps/turtlebot_calibration/all
@@ -133,6 +134,7 @@ preinstall: robot_voice/preinstall
 preinstall: my_dynamixel/preinstall
 preinstall: freenect_stack/freenect_camera/preinstall
 preinstall: kobuki_bumper2pc/preinstall
+preinstall: main_pkg/preinstall
 preinstall: kobuki_desktop/kobuki_dashboard/preinstall
 preinstall: turtlebot_apps/turtlebot_actions/preinstall
 preinstall: turtlebot_apps/turtlebot_calibration/preinstall
@@ -188,6 +190,7 @@ clean: robot_voice/clean
 clean: my_dynamixel/clean
 clean: freenect_stack/freenect_camera/clean
 clean: kobuki_bumper2pc/clean
+clean: main_pkg/clean
 clean: kobuki_desktop/kobuki_dashboard/clean
 clean: turtlebot_apps/turtlebot_actions/clean
 clean: turtlebot_apps/turtlebot_calibration/clean
@@ -766,6 +769,24 @@ kobuki_safety_controller/preinstall:
 kobuki_safety_controller/clean: kobuki_safety_controller/CMakeFiles/kobuki_safety_controller_nodelet.dir/clean
 
 .PHONY : kobuki_safety_controller/clean
+
+#=============================================================================
+# Directory level rules for directory main_pkg
+
+# Recursive "all" directory target.
+main_pkg/all:
+
+.PHONY : main_pkg/all
+
+# Recursive "preinstall" directory target.
+main_pkg/preinstall:
+
+.PHONY : main_pkg/preinstall
+
+# Recursive "clean" directory target.
+main_pkg/clean:
+
+.PHONY : main_pkg/clean
 
 #=============================================================================
 # Directory level rules for directory my_dynamixel

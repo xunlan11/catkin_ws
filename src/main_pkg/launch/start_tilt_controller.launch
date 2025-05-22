@@ -1,0 +1,10 @@
+<launch>
+  <!-- Start tilt joint controller -->
+  <rosparam file="$(find main_pkg)/config/tilt.yaml" command="load"/>
+  <node name="tilt_controller_spawner" pkg="main_pkg" 
+        type="controller_spawner.py"
+        args="--manager=dxl_manager
+              --port=pan_tilt_port 
+              tilt_controller"
+        output="screen"/>
+</launch>

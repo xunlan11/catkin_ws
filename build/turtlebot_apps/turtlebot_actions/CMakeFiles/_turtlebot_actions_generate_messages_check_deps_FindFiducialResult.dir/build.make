@@ -54,7 +54,7 @@ CMAKE_BINARY_DIR = /home/robot/catkin_ws/build
 include turtlebot_apps/turtlebot_actions/CMakeFiles/_turtlebot_actions_generate_messages_check_deps_FindFiducialResult.dir/progress.make
 
 turtlebot_apps/turtlebot_actions/CMakeFiles/_turtlebot_actions_generate_messages_check_deps_FindFiducialResult:
-	cd /home/robot/catkin_ws/build/turtlebot_apps/turtlebot_actions && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py turtlebot_actions /home/robot/catkin_ws/devel/share/turtlebot_actions/msg/FindFiducialResult.msg geometry_msgs/Point:geometry_msgs/Quaternion:geometry_msgs/PoseStamped:geometry_msgs/Pose:std_msgs/Header
+	cd /home/robot/catkin_ws/build/turtlebot_apps/turtlebot_actions && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py turtlebot_actions /home/robot/catkin_ws/devel/share/turtlebot_actions/msg/FindFiducialResult.msg std_msgs/Header:geometry_msgs/Point:geometry_msgs/Quaternion:geometry_msgs/Pose:geometry_msgs/PoseStamped
 
 _turtlebot_actions_generate_messages_check_deps_FindFiducialResult: turtlebot_apps/turtlebot_actions/CMakeFiles/_turtlebot_actions_generate_messages_check_deps_FindFiducialResult
 _turtlebot_actions_generate_messages_check_deps_FindFiducialResult: turtlebot_apps/turtlebot_actions/CMakeFiles/_turtlebot_actions_generate_messages_check_deps_FindFiducialResult.dir/build.make

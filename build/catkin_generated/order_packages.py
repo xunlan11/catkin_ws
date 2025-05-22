@@ -2,4 +2,4 @@
 source_root_dir = '/home/robot/catkin_ws/src'
 whitelisted_packages = ''.split(';') if '' != '' else []
 blacklisted_packages = ''.split(';') if '' != '' else []
-underlay_workspaces = '/home/robot/catkin_ws/devel;/opt/ros/noetic'.split(';') if '/home/robot/catkin_ws/devel;/opt/ros/noetic' != '' else []
+underlay_workspaces = '/home/robot/moveit_ws/devel;/home/robot/catkin_ws/devel;/opt/ros/noetic'.split(';') if '/home/robot/moveit_ws/devel;/home/robot/catkin_ws/devel;/opt/ros/noetic' != '' else []
